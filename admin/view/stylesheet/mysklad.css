@@ -1,0 +1,156 @@
+ .htabs {
+    padding: 0px 0px 0px 10px;
+    height: 30px;
+    line-height: 16px;
+    border-bottom: 1px solid #DDDDDD;
+    margin-bottom: 15px;
+  }
+  .htabs a.selected {
+    padding-bottom: 7px;
+    background: #FFFFFF;
+  }
+  .htabs a {
+    border-top: 1px solid #DDDDDD;
+    border-left: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    background: #DBDBDB url(../image/tab.png) repeat-x;
+    padding: 7px 15px 6px 15px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    margin-right: 2px;
+    display: none;
+  }
+  table.form {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+  }
+  tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+  }
+  table.form > tbody > tr > td:first-child {
+    width: 200px;
+  }
+  table.form > tbody > tr > td {
+    padding: 10px;
+    color: #000000;
+    border-bottom: 1px dotted #CCCCCC;
+  }
+  input[type='text'], input[type='password'] {
+    padding: 2px;
+  }
+  form {
+    margin: 0;
+    padding: 0;
+  }
+  .list {
+    border-collapse: collapse;
+    width: 100%;
+    border-top: 1px solid #DDDDDD;
+    border-left: 1px solid #DDDDDD;
+    margin-bottom: 20px;
+  }
+  .list .left {
+    text-align: left;
+    padding: 7px;
+  }
+  .list .right {
+    text-align: right;
+    padding: 7px;
+  }
+  .list thead td a, .list thead td {
+    text-decoration: none;
+    color: #222222;
+    font-weight: bold;
+  }
+  .list .center {
+    text-align: center;
+    padding: 7px;
+  }
+  .list tbody td {
+    vertical-align: middle;
+    padding: 0px 5px;
+    background: #FFFFFF;
+  }
+  .list td {
+    border-right: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+  }
+  a.button, .list a.button {
+    text-decoration: none;
+    color: #FFF;
+    display: inline-block;
+    padding: 5px 15px 5px 15px;
+    background: #003A88;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -khtml-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+  }
+  .list thead td {
+    background-color: #EFEFEF;
+    padding: 0px 5px;
+  }
+  input[type="checkbox"] {
+   -webkit-margin: 3px 3px 3px 4px;
+    -webkit-appearance: checkbox;
+    box-sizing: border-box;
+  }
+ input.ot,input.kolichestvo {
+   width: 50px;
+ }
+ .diapason_text {
+   width: 85%;
+   float: right;
+ }
+ .message {
+   float: right;
+   position: relative;
+   width: 85%;
+   height: 30px;
+ }
+ ul#files {
+   height: 30px;
+   /* bottom: 27px; */
+   position: absolute;
+   width: 100%;
+ }
+ .author a {
+   cursor: pointer;
+ }
+
+
+.box > .heading {
+    height: 38px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border: 1px solid #DBDBDB;
+    background: url(../image/box.png) repeat-x;
+    -webkit-border-radius: 7px 7px 0px 0px;
+    -moz-border-radius: 7px 7px 0px 0px;
+    -khtml-border-radius: 7px 7px 0px 0px;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.box > .content {
+    padding: 10px;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    min-height: 300px;
+    overflow: auto;
+}
+
